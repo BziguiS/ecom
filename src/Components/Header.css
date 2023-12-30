@@ -1,0 +1,242 @@
+.center{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.header{
+    position: relative;
+    width: 100%;
+    height: 17vh;
+    /* border: 3px solid black; */
+    border-radius: 50px 0 0 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+/* Logo */
+
+.logo-container{
+    position: relative;
+    width: 22%;
+    height: 100%;
+    display: flex;
+}
+
+.logo-box{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    height: 90%;
+    bottom: 5%;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    gap: 10%;
+}
+
+
+.logo{
+    color: rgba(65, 38, 18, 0.77);
+    text-shadow: 0px 0px 23px rgba(65, 38, 18, 0.25);
+    font-family: Good Times;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    letter-spacing: 10px;
+}
+
+
+.slogan{
+color: rgba(65, 38, 18, 0.60);
+font-family: Gochi Hand;
+font-size: 17px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
+
+
+/* Links */
+
+.nav{
+    position: relative;
+    height: 100%;
+    display: flex;
+    width: 48%;
+    justify-content: center;
+    /* align-items: center; */
+}
+
+.nav .navbar{
+    position: relative;
+    width: 30%;
+    height: 75%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-left: 16%;
+}
+
+.nav .navbar .links{
+    list-style: none;    
+}
+
+
+.nav .navbar .links li a{
+    text-decoration: none;
+    color: #000;
+    font-family: Montserrat;
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    letter-spacing: 3px;
+}
+
+
+
+/* Connexions */
+
+.connec-container{
+    position: relative;
+    height: 100%;
+    width: 28%;
+    display: flex;
+    justify-content: space-between;
+    /* align-items: center; */
+}
+
+
+.connec-container .pages{
+    height: 70%;
+    width: 15%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.connec-container .pages .save-page{
+    height: 80%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    cursor: pointer;
+}
+
+.connec-container .pages .save-page .save-icon{
+    position: relative;
+    border: 1px solid #412612;
+    top: 10%;
+    width: 100%;
+    height: 65%;
+    border-radius: 10px 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.connec-container .pages .save-page .save-icon .save-icon-container{
+    position: relative;
+    border: 1px solid #D2BC9D;
+    width: 85%;
+    height: 85%;
+    border-radius: 5px 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.connec-container .pages .save-page .save-icon .save-icon-container img{
+    position: relative;
+    width: 18px
+}
+
+.save-text span{
+    color: #412612;
+    font-family: Montserrat;
+    font-size: 10px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    letter-spacing: 2px;
+}
+
+
+
+
+
+
+.connec-container .logsign{
+    height: 70%;
+    width: 73%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.connec-container .logsign .login-container, .connec-container .logsign .signup-container{
+    position: relative;
+    width: 43%;
+    height: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.login-btn, .signup-btn{
+    position: relative;
+    width: 100%;
+    height: 100%;
+    border: none;
+    background-color: #412612;
+    cursor: pointer;
+}
+
+.cnx-btn{
+    font-family: Montserrat Alternates;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    letter-spacing: 3px;
+}
+
+
+.login-btn{
+    background-color: #412612;
+    color: white;
+}
+
+.signup-btn{
+    background-color: #D2BC9D;
+    color: #412612;
+    font-weight: 600;
+}
+
+
+.divider-container{
+    height: 70%;
+    width: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.divider{
+    height: 65%;
+    border-right: 1px solid #000;
+}
+
+.inbetween span{
+    color: #151212;
+    font-family: Montserrat Alternates;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
