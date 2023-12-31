@@ -20,7 +20,7 @@ const Connexion = () => {
 
       </div>
 
-      <div className='divider-container'>
+      {/* <div className='divider-container'>
         <div className='divider'></div>
       </div>
       
@@ -41,7 +41,7 @@ const Connexion = () => {
             <span className='cnx-btn'>Sign Up</span>
           </button>
         </div>
-      </div>
+      </div> */}
 
     </div>
   )
