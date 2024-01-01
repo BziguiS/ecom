@@ -145,9 +145,9 @@ line-height: normal;
 .connec-container .pages .save-page .save-icon .save-icon-container{
     position: relative;
     border: 1px solid #D2BC9D;
-    width: 85%;
-    height: 85%;
-    border-radius: 5px 0;
+    width: 83%;
+    height: 83%;
+    border-radius: 8px 0;
     display: flex;
     justify-content: center;
     align-items: center;

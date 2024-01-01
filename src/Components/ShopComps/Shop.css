@@ -1,0 +1,98 @@
+.shop{
+    position: relative;
+    width: 100%;
+    height: 60vh;
+    overflow-y: auto;
+}
+
+.shop::-webkit-scrollbar{
+    display: none;
+}
+
+
+.shop .shop-first-section{
+    position: relative;
+    /* height: 1000px; */
+    padding: 0 0 7% 0;
+}
+
+
+.shop .shop-first-section .section-title-container{
+    position: relative;
+    height: 12vh;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+}
+
+.shop .shop-first-section .section-title-container h1{
+    position: relative;
+    color: #000;
+    font-family: Montserrat;
+    font-size: 35px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 12.5px;
+}
+
+
+.products-container{
+    position: relative;
+    display: grid;
+    row-gap: 8%;
+    column-gap: 4%;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+
+.product-card{
+    position: relative;
+    width: auto;
+    height: 35vh;
+    border-radius: 20px 0px;
+    background: #FFF;
+    box-shadow: 0px 0px 15px 0px rgba(0, 0, 0, 0.25);
+}
+
+.product-card .product-img{
+    position: relative;
+    width: 100%;
+    height: 60%;
+}
+
+.product-card .product-img img{
+    position: relative;
+    width: 100%;
+}
+
+
+.product-infos{
+    position: relative;
+    width: 100%;
+    height: 40%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.product-infos .product-name{
+    color: #000;
+    font-family: Montserrat;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 3px;
+}
+
+.product-infos .product-price{
+    color: #313131;
+    font-family: Poor Richard;
+    font-size: 17px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 3px;
+}

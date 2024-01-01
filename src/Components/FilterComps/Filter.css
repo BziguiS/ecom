@@ -1,0 +1,149 @@
+.filter{
+    height: 11vh;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.20);
+}
+
+.categories{
+    position: relative;
+    height: 100%;
+    width: 55%;
+}
+
+
+.categories .categories-container{
+    position: relative;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.categories .categorie{
+    width: 28%;
+    height: 65%;
+}
+
+.categories .categorie button{
+    width: 100%;
+    height: 100%;
+    border: none;
+    border-radius: 10px 0;
+    background: rgba(210, 188, 157, 0.70);
+    color: #412612;
+    font-family: Montserrat;
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    letter-spacing: 2.1px;
+}
+
+
+.categories .categories-container .categorie:first-child button{
+    width: 100%;
+    height: 100%;
+    border: none;
+    border-radius: 10px 0;
+    background-color: #412612;
+    color: #D2BC9D;
+}
+
+
+
+.more-button-container{
+    position: relative;
+    width: 9%;
+    height: 70%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.more-button-container .more-btn{
+    width: 60px;
+    height: 60px;
+    border-radius: 10px 0;
+    border: 2px solid #D2BC9D;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+
+.more-icon{
+    width: 100%;
+    height: 100%;
+    border: none;
+    border-radius: 10px 0;
+}
+
+
+.searchbar{
+    position: relative;
+    height: 100%;
+    width: 35%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.searchbar .searchbar-container{
+    position: relative;
+    width: 100%;
+    height: 65%;
+    border-radius: 10px 0px;
+    background: rgba(210, 188, 157, 0.70);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.searchbar .searchbar-container input{
+    position: relative;
+    height: 100%;
+    width: 80%;
+    border: none;
+    border-radius: 10px 0px;
+    background-color: #0000;
+    padding: 0px 30px;
+    font-family: Montserrat;
+    color: #533A28;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    letter-spacing: 2px;
+}
+
+.searchbar .searchbar-container input::placeholder{
+    font-family: Montserrat Alternates;
+    color: #533A28;
+}
+
+.searchbar .searchbar-container input:focus{
+    outline: none;
+}
+
+.searchbar .searchbar-container .search-icon-container{
+    position: relative;
+    height: 100%;
+    width: 15%;
+    background-color: #0000;
+    border: none;
+}
+
+.searchbar .searchbar-container .search-icon-container img{
+    position: relative;
+    width: 25px;
+    height: 25px;
+}
+
+
+button{
+    cursor: pointer;
+}

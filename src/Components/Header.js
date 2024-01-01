@@ -1,7 +1,7 @@
 import React from 'react'
 import Connexion from './HeaderComps/Connexion'
 import Links from './HeaderComps/Links'
-import './Header.css'
+import './HeaderComps/Header.css'
 
 const Header = () => {
   return (
